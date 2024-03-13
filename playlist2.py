@@ -11,26 +11,7 @@ home_directory = os.path.expanduser("~")
 playlistLocation  =home_directory +"/Downloads/YoutubeDownloader/"
 print("Playlist is available at : " +  playlistLocation)
 
-# print("Enter the folder :\n")
-# print(''' 1. pop.
-# 2. Afropop.
-# 3.Hiphop.
-# 4.Oldies.
-# 5.Electric''')
-# folder=input()
-# if folder=="1":
-#     path='/home/kamau/Music/pop/'
-# elif folder=="2":
-#     path='/home/kamau/Music/afropop/'
-# elif folder=="3":
-#     path='/home/kamau/Music/hiphop/'
-# elif folder=="4":
-#     path='/home/kamau/Music/Oldies/'
-# elif folder=="5":
-#     path='/home/kamau/Music/Electric/'
 
-# else:
-#     path='/home/kamau/Videos/' + folder + '/'
   
 try:  
    playlist=Playlist(link)
